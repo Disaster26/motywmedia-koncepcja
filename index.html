@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Wydarzenia w Warszawie - relacje z gal, premier i pokazów | MotywMedia.pl</title>
+<meta name="description" content="MotywMedia.pl - relacje z wydarzeń w Warszawie: gale, premiery, pokazy mody, otwarcia restauracji, targi i spotkania korpusu dyplomatycznego. Zdjęcia i materiały prasowe.">
+<meta name="theme-color" content="#204595">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/archivo-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/gala-1920.webp" imagesrcset="img/gala-800.webp 800w, img/gala-1280.webp 1280w, img/gala-1920.webp 1920w, img/gala-2560.webp 2560w" imagesizes="100vw" fetchpriority="high">
+<style>
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2026}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/archivo-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+/* kolory z logo: niebieski napisu #6190DA, granatowy cień liter #204595 */
+:root{--b:#6190DA;--b2:#3F74CF;--g:#204595;--g2:#163370;--ink:#0F1D3A;--txt:#2B3446;--mut:#5D6678;--szary:#F1F4F9;--linia:#DCE2EC;
+--top:72px;--wrap:min(92vw,1320px);--skos:-12deg;--f:"Archivo",system-ui,"Segoe UI",Arial,sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:var(--top)}
+body{margin:0;background:#fff;color:var(--txt);font:400 16.5px/1.6 var(--f);overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f);color:var(--ink);line-height:1.12;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(28px,3vw,44px);font-weight:800}
+h3{font-size:20px;font-weight:700}
+p{margin:0}
+.wrap{width:var(--wrap);margin:0 auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* logo jak oryginał: MOTYW pochylone z granatowym cieniem, MEDIA.PL pod spodem */
+.logo{display:inline-flex;flex-direction:column;align-items:flex-end;text-decoration:none;line-height:.86;font-family:var(--f);font-synthesis:style;transform:skewX(var(--skos))}
+.logo b{font-weight:800;font-size:31px;color:var(--b);letter-spacing:-.02em;text-shadow:1.5px 1.5px 0 var(--g)}
+.logo span{font-weight:800;font-size:14.5px;color:var(--b);letter-spacing:.02em;text-shadow:1px 1px 0 var(--g);margin-top:1px}
+
+/* nagłówek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia)}
+.top-in{height:var(--top);display:flex;align-items:center;gap:28px}
+.nav{display:flex;align-items:center;gap:26px;margin-left:auto}
+.nav a{text-decoration:none;font-weight:600;font-size:15.5px;color:var(--ink);position:relative;padding:6px 0}
+.nav a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--b);transform:skewX(var(--skos)) scaleX(0);transform-origin:left;transition:transform .2s}
+.nav a:not(.btn):hover::after,.nav a[aria-current]::after{transform:skewX(var(--skos)) scaleX(1)}
+.burger{display:none;margin-left:auto;width:46px;height:46px;border:0;background:none;padding:11px;cursor:pointer}
+.burger span{display:block;height:2.5px;background:var(--ink);margin:5px 0;transition:transform .2s,opacity .2s}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+
+/* przyciski: pochylony prostokąt jak litery logo */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;font:700 16px/1 var(--f);text-decoration:none;color:#fff;background:var(--b2);border:2px solid var(--b2);transform:skewX(var(--skos));transition:background .2s,border-color .2s,color .2s;cursor:pointer}
+.btn>span{transform:skewX(12deg);display:block}
+.btn:hover{background:var(--g);border-color:var(--g)}
+.btn-jasny{background:transparent;border-color:#fff;color:#fff}
+.btn-jasny:hover{background:#fff;color:var(--g);border-color:#fff}
+.btn-sm{min-height:42px;padding:0 18px;font-size:15px}
+.nav .btn{color:#fff;padding:0 18px}
+
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - var(--top));display:flex;align-items:flex-end;color:#fff;overflow:hidden;clip-path:polygon(0 0,100% 0,100% calc(100% - 4.2vw),0 100%);margin-bottom:-4.2vw}
+.hero-foto{position:absolute;inset:0;margin:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,26,58,.86) 0%,rgba(12,26,58,.6) 38%,rgba(12,26,58,.08) 70%),linear-gradient(0deg,rgba(12,26,58,.55),rgba(12,26,58,0) 45%)}
+.hero-in{position:relative;width:var(--wrap);margin:0 auto;padding:60px 0 calc(4.2vw + 64px)}
+.hero h1{color:#fff;font-weight:800;font-size:clamp(38px,4.3vw,68px);max-width:15.5ch;line-height:1.05;letter-spacing:-.02em}
+.hero-lead{max-width:540px;margin-top:22px;font-size:clamp(17px,1.25vw,19px);line-height:1.55;color:rgba(255,255,255,.92)}
+.hero-akcje{display:flex;flex-wrap:wrap;gap:14px 18px;margin-top:32px;padding-left:6px}
+.hero-ost{display:flex;align-items:center;gap:14px;margin-top:40px;max-width:640px;text-decoration:none;color:#fff;border-top:1px solid rgba(255,255,255,.3);padding-top:18px;font-size:15.5px}
+.hero-ost em{font-style:normal;font-weight:700;background:var(--b);padding:3px 10px;transform:skewX(var(--skos));white-space:nowrap}
+.hero-ost em i{display:block;font-style:normal;transform:skewX(12deg)}
+.hero-ost:hover span{text-decoration:underline}
+
+/* belka działu - skośna jak w logo */
+.dzial{display:inline-block;font-weight:700;font-size:13.5px;color:#fff;background:var(--g);padding:3px 11px;transform:skewX(var(--skos));text-decoration:none}
+.dzial>i{display:block;font-style:normal;transform:skewX(12deg)}
+.data{font-size:14.5px;color:var(--mut);margin-left:10px}
+
+section{position:relative}
+.sek{padding:clamp(80px,8vw,124px) 0 clamp(64px,6vw,96px)}
+.sek-gl{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:38px}
+.sek-gl p{color:var(--mut);max-width:520px}
+
+/* najnowsze */
+.lead-rel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px clamp(28px,5vw,80px);align-items:end;padding-bottom:56px;border-bottom:1px solid var(--linia)}
+.lead-rel h3{font-size:clamp(28px,2.6vw,40px);font-weight:800;margin:16px 0 0;line-height:1.1}
+.lead-txt{padding-bottom:4px}
+.lead-rel h3 a{text-decoration:none}
+.lead-rel h3 a:hover{color:var(--g)}
+.lead-rel p{color:var(--txt)}
+.czytaj{display:inline-block;margin-top:20px;font-weight:700;color:var(--g);text-decoration:none;border-bottom:2px solid var(--b)}
+.czytaj:hover{color:var(--b2)}
+.lead-fot{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:8px}
+.lead-fot img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.lead-fot img:first-child{clip-path:polygon(0 0,100% 0,100% 100%,7% 100%)}
+.lead-fot img:last-child{clip-path:polygon(0 0,93% 0,100% 100%,0 100%)}
+.siatka{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin-top:48px}
+.karta{min-width:0}
+.karta a.f{display:block;overflow:hidden}
+.karta img{width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .4s}
+.karta a.f:hover img{transform:scale(1.03)}
+.karta .meta{margin-top:16px}
+.karta h3{font-size:19.5px;margin-top:10px;line-height:1.25}
+.karta h3 a{text-decoration:none}
+.karta h3 a:hover{color:var(--g)}
+.karta p{margin-top:8px;font-size:15.5px;color:var(--mut);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* działy - przesuwane */
+.szary{background:var(--szary)}
+.pas{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:6px;cursor:grab}
+.pas::-webkit-scrollbar{display:none}
+.pas.ciag{cursor:grabbing;scroll-snap-type:none}
+.pas>*{scroll-snap-align:start;flex:0 0 auto}
+.dz{width:270px;text-decoration:none;color:inherit;background:#fff}
+.dz img{width:270px;height:182px;object-fit:cover;pointer-events:none}
+.dz div{padding:16px 18px 20px}
+.dz h3{font-size:19px;display:flex;align-items:center;gap:10px}
+.dz h3::before{content:"";width:16px;height:16px;background:var(--b);transform:skewX(var(--skos));flex:none}
+.dz p{margin-top:8px;font-size:14.5px;line-height:1.5;color:var(--mut)}
+.dz:hover h3{color:var(--g)}
+.strzalki{display:flex;gap:10px}
+.strzalki button{width:48px;height:48px;border:2px solid var(--g);background:#fff;color:var(--g);font:700 20px/1 var(--f);cursor:pointer;transform:skewX(var(--skos))}
+.strzalki button:hover{background:var(--g);color:#fff}
+
+/* dla organizatorów - mocna sekcja z koloru cienia logo */
+.org{background:var(--g);color:#fff;clip-path:polygon(0 4vw,100% 0,100% calc(100% - 4vw),0 100%);padding:calc(4vw + 88px) 0 calc(4vw + 88px);margin:-4vw 0}
+.przed-org{padding-bottom:calc(4vw + 96px)}
+.po-org{padding-top:calc(4vw + 96px)}
+.org-in{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:center}
+.org h2{color:#fff}
+.org p{color:rgba(255,255,255,.9);margin-top:20px;max-width:560px}
+.org ul{list-style:none;padding:0;margin:26px 0 34px;max-width:560px}
+.org li{padding:13px 0 13px 30px;border-top:1px solid rgba(255,255,255,.22);position:relative}
+.org li::before{content:"";position:absolute;left:2px;top:21px;width:13px;height:13px;background:var(--b);transform:skewX(var(--skos))}
+.org-fot{margin:0;justify-self:end;max-width:600px;width:100%}
+.org-fot img{width:100%;clip-path:polygon(8% 0,100% 0,92% 100%,0 100%)}
+.org-fot figcaption{font-size:14px;color:rgba(255,255,255,.7);margin-top:12px;text-align:right}
+
+/* galeria */
+.gal{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab}
+.gal::-webkit-scrollbar{display:none}
+.gal.ciag{cursor:grabbing;scroll-snap-type:none}
+.gal img{height:clamp(260px,26vw,380px);width:auto;flex:0 0 auto;scroll-snap-align:start;pointer-events:none}
+.gal-info{margin-top:18px;color:var(--mut);font-size:15px}
+
+/* warto zobaczyć */
+.loga{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin-top:8px}
+.loga a{display:block;filter:grayscale(1);opacity:.8;transition:filter .2s,opacity .2s}
+.loga a:hover{filter:none;opacity:1}
+.loga img{width:148px;height:78px}
+
+/* o nas + kontakt */
+.kont{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+.kont p+p{margin-top:16px}
+.mail-red{display:inline-block;margin-top:26px;font-size:clamp(20px,1.8vw,26px);font-weight:800;color:var(--g);text-decoration:none;border-bottom:3px solid var(--b)}
+form{background:#fff;padding:clamp(24px,3vw,40px);border:1px solid var(--linia)}
+label{display:block;font-weight:600;font-size:15px;color:var(--ink);margin-bottom:6px}
+input,select,textarea{width:100%;font:400 16px/1.4 var(--f);padding:12px 14px;border:1.5px solid #C9D2E0;background:#fff;color:var(--ink);border-radius:0;margin-bottom:18px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--b2);box-shadow:0 0 0 3px rgba(97,144,218,.25)}
+textarea{min-height:120px;resize:vertical}
+.rzad{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.form-info{margin-top:14px;font-size:14px;color:var(--mut)}
+
+/* stopka */
+.stopka{background:var(--szary);border-top:1px solid var(--linia);padding:56px 0 28px;font-size:15px}
+.st-in{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:32px}
+.stopka h4{margin:0 0 12px;font-size:15px;color:var(--ink)}
+.stopka ul{list-style:none;margin:0;padding:0}
+.stopka li{margin:6px 0}
+.stopka a{text-decoration:none;color:var(--txt)}
+.stopka a:hover{color:var(--g)}
+.st-dol{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:40px;padding-top:20px;border-top:1px solid var(--linia);color:var(--mut)}
+.st-opis{margin-top:16px;color:var(--mut);max-width:300px}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+@media (max-height:820px) and (min-width:1025px){
+ .hero h1{font-size:clamp(36px,3.6vw,56px)}
+ .hero-in{padding-bottom:calc(4.2vw + 40px)}
+ .hero-ost{margin-top:28px}
+}
+@media (max-width:1180px){
+ .nav{gap:18px}.nav a{font-size:15px}
+ .siatka{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:1024px){
+ :root{--top:62px}
+ .burger{display:block}
+ .nav{position:fixed;top:var(--top);left:0;right:0;bottom:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:12px 4vw 32px;transform:translateX(100%);transition:transform .25s;overflow-y:auto}
+ .nav.otw{transform:none}
+ .nav a{font-size:20px;padding:16px 0;border-bottom:1px solid var(--linia)}
+ .nav a:not(.btn)::after{display:none}
+ .nav a[aria-current]{color:var(--g)}
+ .nav .btn{margin-top:24px;align-self:flex-start;border-bottom:2px solid var(--b2);padding:0 26px}
+ .lead-rel{grid-template-columns:1fr}
+ .org-in,.kont{grid-template-columns:1fr}
+ .org-fot{justify-self:start}
+ .st-in{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+ body{font-size:16px}
+ .logo b{font-size:27px}.logo span{font-size:12.5px}
+ /* telefon: zdjęcie nad tekstem, tekst na granacie */
+ .hero{flex-direction:column;align-items:stretch;clip-path:none;margin-bottom:0;background:var(--g2)}
+ .hero-foto{position:relative;inset:auto;flex:1 1 0;min-height:min(46vw,24svh)}
+ .hero-foto img{position:absolute;inset:0;object-position:50% 45%}
+ .hero-foto::after{background:linear-gradient(0deg,var(--g2) 0%,rgba(22,51,112,0) 42%)}
+ .hero-in{flex:0 0 auto;padding:4px 0 clamp(20px,4svh,32px)}
+ .hero h1{font-size:clamp(27px,7.6vw,34px);line-height:1.1}
+ .hero-lead{font-size:15.5px;margin-top:clamp(10px,1.8svh,16px);line-height:1.5}
+ .hero-akcje{margin-top:clamp(24px,3.6svh,30px);gap:12px;flex-wrap:nowrap}
+ .hero-akcje .btn{min-height:48px;padding:0 16px;font-size:15px;flex:1 1 auto}
+ .hero-ost{display:none}
+ .sek{padding:64px 0 60px}
+ .sek-gl{flex-direction:column;align-items:flex-start;margin-bottom:28px}
+ .lead-fot{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;gap:8px}
+ .lead-fot::-webkit-scrollbar{display:none}
+ .lead-fot img{flex:0 0 82%;width:82%;min-width:0;scroll-snap-align:start;clip-path:none!important}
+ .siatka{grid-template-columns:1fr;gap:34px}
+ .strzalki{display:none}
+ .dz{width:240px}.dz img{width:240px;height:162px}
+ .org{clip-path:polygon(0 18px,100% 0,100% calc(100% - 18px),0 100%);padding:84px 0;margin:-18px 0}
+ .przed-org{padding-bottom:82px}
+ .po-org{padding-top:82px}
+ .rzad{grid-template-columns:1fr}
+ .loga img{width:126px;height:66px}
+ .st-in{gap:26px 18px}
+ .st-in>div:first-child{grid-column:1/-1}
+}
+@media (max-width:380px){
+ .hero-akcje .btn{padding:0 12px;font-size:14.5px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="./" aria-label="MotywMedia.pl - strona główna"><b>MOTYW</b><span>MEDIA.PL</span></a>
+    <nav class="nav" id="nav" aria-label="Menu główne">
+      <a href="#najnowsze" aria-current="page">Wydarzenia</a>
+      <a href="#dzialy">Działy</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#organizatorzy">Dla organizatorów</a>
+      <a href="#kontakt">O nas i kontakt</a>
+      <a class="btn btn-sm" href="#kontakt"><span>Zaproś redakcję</span></a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <figure class="hero-foto">
+    <img src="img/gala-1920.webp" srcset="img/gala-800.webp 800w, img/gala-1280.webp 1280w, img/gala-1920.webp 1920w, img/gala-2560.webp 2560w" sizes="100vw" width="1920" height="1280" alt="Goście uroczystej gali wznoszą toast" fetchpriority="high">
+  </figure>
+  <div class="hero-in">
+    <h1>Wydarzenia w Warszawie - relacje z gal, premier i pokazów</h1>
+    <p class="hero-lead">Bywamy tam, gdzie wchodzi się z zaproszeniem: na galach, otwarciach restauracji, pokazach mody i świętach narodowych ambasad. Relacje i zdjęcia publikujemy w dziesięciu działach.</p>
+    <div class="hero-akcje">
+      <a class="btn" href="#najnowsze"><span>Najnowsze relacje</span></a>
+      <a class="btn btn-jasny" href="#organizatorzy"><span>Zaproś redakcję</span></a>
+    </div>
+    <a class="hero-ost" href="#najnowsze"><em><i>17 listopada</i></em><span>Złoty Certyfikat POT 2026 dla Zamku w Mosznej</span></a>
+  </div>
+</section>
+
+<section class="sek" id="najnowsze" aria-labelledby="h-naj">
+  <div class="wrap">
+    <div class="sek-gl">
+      <h2 id="h-naj">Najnowsze relacje</h2>
+      <p>Relacje z wydarzeń, na których była nasza redakcja.</p>
+    </div>
+    <article class="lead-rel">
+      <div>
+        <a class="dzial" href="#dzialy"><i>Turystyka</i></a><span class="data">17.11.2026</span>
+        <h3><a href="#najnowsze">Złoty Certyfikat POT 2026 dla Zamku w Mosznej</a></h3>
+      </div>
+      <div class="lead-txt">
+        <p>Zamek w Mosznej ze Złotym Certyfikatem, dziesięć atrakcji z Certyfikatami Polskiej Organizacji Turystycznej, Turystyczne Odkrycie Roku i Certyfikat Internautów. Podczas uroczystej gali rozstrzygnięto XXIII edycję Konkursu na Najlepszy Produkt Turystyczny, nazywanego „turystycznymi Oscarami".</p>
+        <a class="czytaj" href="#najnowsze">Czytaj relację</a>
+      </div>
+      <div class="lead-fot">
+        <img src="img/pot-a.webp" width="420" height="280" alt="Wręczenie Złotego Certyfikatu POT dla Zamku w Mosznej" loading="lazy">
+        <img src="img/pot-b.webp" width="420" height="280" alt="Laureaci na scenie gali Certyfikat POT 2026" loading="lazy">
+        <img src="img/pot-d.webp" width="420" height="280" alt="Nagrodzeni podczas gali Polskiej Organizacji Turystycznej" loading="lazy">
+      </div>
+    </article>
+    <div class="siatka">
+      <article class="karta">
+        <a class="f" href="#najnowsze"><img src="img/ittf.webp" width="420" height="280" alt="Pokaz tańca na Międzynarodowych Targach Turystycznych ITTF Warsaw" loading="lazy"></a>
+        <div class="meta"><a class="dzial" href="#dzialy"><i>Turystyka</i></a><span class="data">21.11.2026</span></div>
+        <h3><a href="#najnowsze">4. edycja Międzynarodowych Targów Turystycznych ITTF Warsaw</a></h3>
+        <p>W dniach 19-21 listopada w Pałacu Kultury i Nauki spotkali się touroperatorzy, agenci turystyczni, przedstawiciele destynacji, hoteli i linii lotniczych.</p>
+      </article>
+      <article class="karta">
+        <a class="f" href="#najnowsze"><img src="img/lmr.webp" width="420" height="280" alt="Wręczenie wyróżnień na gali Luksusowa Marka Roku 2026" loading="lazy"></a>
+        <div class="meta"><a class="dzial" href="#dzialy"><i>Biznes</i></a><span class="data">08.11.2026</span></div>
+        <h3><a href="#najnowsze">Luksusowa Marka Roku 2026</a></h3>
+        <p>Siedemnasta edycja wydarzenia w Hotelu Renaissance w Warszawie, w tym roku w kameralnej i refleksyjnej formule.</p>
+      </article>
+      <article class="karta">
+        <a class="f" href="#najnowsze"><img src="img/marumi.webp" width="420" height="280" alt="Szef kuchni podczas otwarcia restauracji Marumi" loading="lazy"></a>
+        <div class="meta"><a class="dzial" href="#dzialy"><i>Kulinaria</i></a><span class="data">22.10.2026</span></div>
+        <h3><a href="#najnowsze">Uroczyste otwarcie restauracji Marumi w Warszawie</a></h3>
+        <p>Przy Kruczej 50 otworzyło się miejsce, w którym kuchnia azjatycka spotyka się z akcentami śródziemnomorskimi.</p>
+      </article>
+      <article class="karta">
+        <a class="f" href="#najnowsze"><img src="img/french.webp" width="420" height="280" alt="Prowadzący 12. Gali French Touch La Belle Vie" loading="lazy"></a>
+        <div class="meta"><a class="dzial" href="#dzialy"><i>Kultura</i></a></div>
+        <h3><a href="#najnowsze">12. Gala French Touch La Belle Vie!</a></h3>
+        <p>Polscy i francuscy artyści na jednej scenie Teatru Wielkiego - Opery Narodowej, wśród nich ZAZ, Imany, Michał Szpak i Ania Rusowicz.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sek szary przed-org" id="dzialy" aria-labelledby="h-dz">
+  <div class="wrap">
+    <div class="sek-gl">
+      <div>
+        <h2 id="h-dz">Działy</h2>
+        <p style="margin-top:12px">Każdy dział to osobna zakładka z własnym archiwum relacji.</p>
+      </div>
+      <div class="strzalki"><button type="button" data-pas="pasDz" data-k="-1" aria-label="Poprzednie działy">&lsaquo;</button><button type="button" data-pas="pasDz" data-k="1" aria-label="Następne działy">&rsaquo;</button></div>
+    </div>
+    <div class="pas" id="pasDz">
+      <a class="dz" href="#dzialy"><img src="img/k-kulinaria.webp" width="270" height="182" alt="Wręczenie nagrody szefowi kuchni" loading="lazy"><div><h3>Kulinaria</h3><p>Targi i imprezy kulinarne, spotkania z mistrzami kuchni, otwarcia restauracji, premiery książek kulinarnych.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-moda.webp" width="270" height="182" alt="Pokaz mody na wybiegu" loading="lazy"><div><h3>Moda</h3><p>Pokazy mody, premiery kolekcji i wydarzenia z udziałem projektantów.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-uroda.webp" width="270" height="182" alt="Goście wydarzenia branży urody" loading="lazy"><div><h3>Uroda</h3><p>Premiery kosmetyków, prezentacje marek i spotkania dla dziennikarzy.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-kultura.webp" width="270" height="182" alt="Koncert podczas gali" loading="lazy"><div><h3>Kultura</h3><p>Koncerty, premiery, jubileusze i uroczyste gale.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-zdrowie.webp" width="267" height="177" alt="Wydarzenie z cyklu Zdrowie" loading="lazy"><div><h3>Zdrowie</h3><p>Kampanie społeczne, konferencje i spotkania o zdrowiu.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-sport.webp" width="270" height="182" alt="Spotkanie z gwiazdą sportu" loading="lazy"><div><h3>Sport i rekreacja</h3><p>Wydarzenia sportowe, biegi i spotkania z zawodnikami.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-turystyka.webp" width="270" height="182" alt="Prezentacja regionu turystycznego" loading="lazy"><div><h3>Turystyka</h3><p>Prezentacje regionów, otwarcia hoteli i nowe połączenia przewoźników, study tour.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-transport.webp" width="270" height="182" alt="Premiera samochodu" loading="lazy"><div><h3>Transport</h3><p>Eventy motoryzacyjne, premiery samochodów, inauguracje połączeń lotniczych.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-dyplomacja.webp" width="270" height="179" alt="Przemówienie ambasadora podczas święta narodowego" loading="lazy"><div><h3>Dyplomacja</h3><p>Spotkania korpusu dyplomatycznego i święta narodowe organizowane przez ambasadorów w Warszawie.</p></div></a>
+      <a class="dz" href="#dzialy"><img src="img/k-rozne.webp" width="270" height="180" alt="Uroczystość jubileuszowa" loading="lazy"><div><h3>Różne</h3><p>Biznes, jubileusze i wydarzenia, które nie mieszczą się w jednym dziale.</p></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="org" id="organizatorzy" aria-labelledby="h-org">
+  <div class="wrap org-in">
+    <div>
+      <h2 id="h-org">Organizują Państwo wydarzenie? Zaproście redakcję</h2>
+      <p>Nasi dziennikarze od lat bywają na konferencjach, spotkaniach i eventach w Warszawie i na Mazowszu. Z każdego powstaje relacja: artykuł, zdjęcia i materiały prasowe. Współpracujemy z dziennikami, prasą kolorową, portalami internetowymi i telewizją.</p>
+      <ul>
+        <li>Zaproszenie najlepiej wysłać na redakcja@motywmedia.pl, z datą, miejscem i programem.</li>
+        <li>Relacja trafia do właściwego działu, a zdjęcia do galerii.</li>
+        <li>Materiały prasowe i zdjęcia od organizatorów mają osobną zakładkę.</li>
+      </ul>
+      <a class="btn btn-jasny" href="#kontakt"><span>Wyślij zaproszenie</span></a>
+    </div>
+    <figure class="org-fot">
+      <img src="img/g1.webp" width="800" height="531" alt="Goście podczas uroczystości w ambasadzie" loading="lazy">
+      <figcaption>Dyplomacja: spotkanie w ambasadzie</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sek po-org" id="galeria" aria-labelledby="h-gal">
+  <div class="wrap">
+    <div class="sek-gl">
+      <h2 id="h-gal">Galeria</h2>
+      <div class="strzalki"><button type="button" data-pas="pasGal" data-k="-1" aria-label="Poprzednie zdjęcia">&lsaquo;</button><button type="button" data-pas="pasGal" data-k="1" aria-label="Następne zdjęcia">&rsaquo;</button></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="gal" id="pasGal">
+      <img src="img/g2.webp" width="800" height="531" alt="Przemówienie podczas święta narodowego w ambasadzie" loading="lazy">
+      <img src="img/g6.webp" width="510" height="768" alt="Modelka na pokazie" loading="lazy">
+      <img src="img/g3.webp" width="800" height="531" alt="Gość jubileuszu radia na ściance" loading="lazy">
+      <img src="img/g4.webp" width="800" height="531" alt="Konferencja prasowa ambasadora" loading="lazy">
+      <img src="img/g5.webp" width="510" height="768" alt="Prezentacja kuchni tajskiej" loading="lazy">
+      <img src="img/g7.webp" width="800" height="531" alt="Pokaz mody z udziałem modelek" loading="lazy">
+      <img src="img/g8.webp" width="510" height="768" alt="Gala z okazji święta Maroka" loading="lazy">
+      <img src="img/g9.webp" width="510" height="768" alt="Wręczenie wyróżnienia" loading="lazy">
+    </div>
+    <p class="gal-info">Przesuń palcem albo myszą. Na docelowej stronie każde zdjęcie otwiera się w powiększeniu.</p>
+  </div>
+</section>
+
+<section class="sek szary" aria-labelledby="h-warto" style="padding-top:72px;padding-bottom:72px">
+  <div class="wrap">
+    <h2 id="h-warto" style="text-align:center;font-size:clamp(24px,2.2vw,32px);margin-bottom:28px">Warto zobaczyć</h2>
+    <div class="loga">
+      <a href="#" aria-label="Biegnij Warszawo"><img src="img/logo-biegnij-warszawo.webp" width="148" height="78" alt="Biegnij Warszawo" loading="lazy"></a>
+      <a href="#" aria-label="Eurogastro"><img src="img/logo-eurogastro.webp" width="148" height="78" alt="Eurogastro" loading="lazy"></a>
+      <a href="#" aria-label="Warsaw Motor Show"><img src="img/logo-warsaw-motor-show.webp" width="148" height="78" alt="Warsaw Motor Show" loading="lazy"></a>
+      <a href="#" aria-label="French Touch"><img src="img/logo-french-touch.webp" width="148" height="78" alt="French Touch La Belle Vie" loading="lazy"></a>
+      <a href="#" aria-label="Luksusowa Marka Roku"><img src="img/logo-luksusowa-marka-roku.webp" width="148" height="78" alt="Luksusowa Marka Roku" loading="lazy"></a>
+      <a href="#" aria-label="TT Warsaw"><img src="img/logo-tt-warsaw.webp" width="148" height="78" alt="TT Warsaw" loading="lazy"></a>
+      <a href="#" aria-label="WorldFood Poland"><img src="img/logo-word-food-poland-02.webp" width="148" height="78" alt="WorldFood Poland" loading="lazy"></a>
+      <a href="#" aria-label="Kongres Szefów Kuchni"><img src="img/logo-kongres-szefow-kuchni.webp" width="148" height="78" alt="Kongres Szefów Kuchni" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="kontakt" aria-labelledby="h-kont">
+  <div class="wrap kont">
+    <div>
+      <h2 id="h-kont">O nas</h2>
+      <p style="margin-top:20px">Redakcja MotywMedia.pl przedstawia najważniejsze wydarzenia medialne. Najbardziej interesują nas pokazy mody, premiery, koncerty, jubileusze i uroczyste gale. Serwis redagują dziennikarze, którzy od lat systematycznie uczestniczą w konferencjach, spotkaniach i eventach na Mazowszu.</p>
+      <p>Publikujemy relacje o charakterze opisowym i informacyjnym: artykuły, zdjęcia i materiały prasowe.</p>
+      <a class="mail-red" href="#kontakt">redakcja@motywmedia.pl</a>
+    </div>
+    <form id="form" novalidate>
+      <h3 style="font-size:24px;margin-bottom:22px">Napisz do redakcji</h3>
+      <div class="rzad">
+        <div><label for="f-imie">Imię i nazwisko</label><input id="f-imie" name="imie" autocomplete="name"></div>
+        <div><label for="f-mail">E-mail</label><input id="f-mail" name="email" type="email" autocomplete="email"></div>
+      </div>
+      <label for="f-temat">Sprawa</label>
+      <select id="f-temat" name="temat"><option>Zaproszenie na wydarzenie</option><option>Materiały prasowe i zdjęcia</option><option>Inna sprawa</option></select>
+      <label for="f-tresc">Wiadomość</label>
+      <textarea id="f-tresc" name="tresc" placeholder="Data, miejsce i krótki opis wydarzenia"></textarea>
+      <button class="btn" type="submit"><span>Wyślij wiadomość</span></button>
+      <p class="form-info" id="formInfo" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap st-in">
+    <div>
+      <a class="logo" href="./" aria-label="MotywMedia.pl - strona główna"><b>MOTYW</b><span>MEDIA.PL</span></a>
+      <p class="st-opis">Relacje z wydarzeń w Warszawie i na Mazowszu.</p>
+    </div>
+    <div><h4>Działy</h4><ul><li><a href="#dzialy">Kulinaria</a></li><li><a href="#dzialy">Moda</a></li><li><a href="#dzialy">Uroda</a></li><li><a href="#dzialy">Kultura</a></li><li><a href="#dzialy">Zdrowie</a></li></ul></div>
+    <div><h4>&nbsp;</h4><ul><li><a href="#dzialy">Sport i rekreacja</a></li><li><a href="#dzialy">Turystyka</a></li><li><a href="#dzialy">Transport</a></li><li><a href="#dzialy">Dyplomacja</a></li><li><a href="#dzialy">Różne</a></li></ul></div>
+    <div><h4>Redakcja</h4><ul><li><a href="#kontakt">O nas</a></li><li><a href="#organizatorzy">Materiały prasowe i zdjęcia</a></li><li><a href="#kontakt">Kontakt</a></li><li><a href="#kontakt">Polityka prywatności</a></li></ul></div>
+  </div>
+  <div class="wrap st-dol">
+    <span>&copy; 2026 MotywMedia.pl. Wszystkie prawa zastrzeżone.</span>
+    <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=motywmedia.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),n=document.getElementById('nav');
+  b.addEventListener('click',function(){var o=n.classList.toggle('otw');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Zamknij menu':'Otwórz menu');document.body.style.overflow=o?'hidden':''});
+  n.addEventListener('click',function(e){if(e.target.closest('a')&&n.classList.contains('otw')){n.classList.remove('otw');b.setAttribute('aria-expanded','false');document.body.style.overflow=''}});
+  // przesuwanie myszą
+  document.querySelectorAll('.pas,.gal').forEach(function(p){
+    var x0=0,s0=0,ruch=false,wcis=false;
+    p.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;wcis=true;ruch=false;x0=e.clientX;s0=p.scrollLeft});
+    window.addEventListener('pointermove',function(e){if(!wcis)return;var d=e.clientX-x0;if(Math.abs(d)>4){ruch=true;p.classList.add('ciag')}p.scrollLeft=s0-d});
+    window.addEventListener('pointerup',function(){if(!wcis)return;wcis=false;p.classList.remove('ciag')});
+    p.addEventListener('click',function(e){if(ruch){e.preventDefault();ruch=false}},true);
+    p.addEventListener('dragstart',function(e){e.preventDefault()});
+  });
+  document.querySelectorAll('.strzalki button').forEach(function(bt){
+    bt.addEventListener('click',function(){var p=document.getElementById(bt.dataset.pas);p.scrollBy({left:bt.dataset.k*p.clientWidth*.8,behavior:'smooth'})});
+  });
+  document.getElementById('form').addEventListener('submit',function(e){e.preventDefault();document.getElementById('formInfo').textContent='To podgląd - na docelowej stronie wiadomość trafi prosto na redakcja@motywmedia.pl.'});
+})();
+</script>
+</body>
+</html>
